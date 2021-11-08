@@ -1,7 +1,7 @@
 {
   "name": "client",
   "version": "0.1.0",
-  "private": false,  
+  "private": false,
   "dependencies": {
     "@material-ui/core": "^4.11.3",
     "@reduxjs/toolkit": "^1.5.1",
@@ -16,7 +16,7 @@
     "socket.io-client": "^2.3.0"
   },
   "scripts": {
-    "start": "PORT=8007 react-scripts start"  
+    "start": "PORT=8007 react-scripts start"
   },
   "eslintConfig": {
     "extends": "react-app"
