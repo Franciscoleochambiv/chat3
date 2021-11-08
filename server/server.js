@@ -26,7 +26,7 @@ app.use('/users', isAuth, usersRouter)
 
 mongoose.connect(MONGODB_URI, { dbName:'chat8',useUnifiedTopology: true, useNewUrlParser: true }, (err) => {
     if (err) console.log(err)
-    const server = app.listen(4000, () => console.log('http://locahost:4000'))
+    const server = app.listen(8006, () => console.log('http://locahost:8006'))
     socket.init(server)
 })
 
