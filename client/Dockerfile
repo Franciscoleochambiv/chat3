@@ -1,6 +1,5 @@
-FROM node:12-alpine3.12 AS build
-WORKDIR /home/Descargas/chat3
+FROM node:14.15.4-alpine3.11 AS build
+WORKDIR /home/Descargas/chat3/client/
 COPY package.json ./
-RUN npm install
 COPY . .
 CMD ["npm","start"]
